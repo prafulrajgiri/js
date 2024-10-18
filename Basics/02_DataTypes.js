@@ -13,7 +13,7 @@ console.table([ name,age,isLoggedIn])
 // string=> ""
 //boolean => true/false
 // null => standalone value,empty value, can be assigned to a variable unlike undefined
-// undefined => decalred but not defined/assigned a value
+// undefined => declared but not defined/assigned a value
 // symbol => unique
 
 //object 
