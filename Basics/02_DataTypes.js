@@ -12,7 +12,7 @@ console.table([ name,age,isLoggedIn])
 //bigint 
 // string=> ""
 //boolean => true/false
-// null => standalone value,empty value, can be assigned to a variable unlike null
+// null => standalone value,empty value, can be assigned to a variable unlike undefined
 // undefined => decalred but not defined/assigned a value
 // symbol => unique
 
