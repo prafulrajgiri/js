@@ -29,11 +29,23 @@ const obj4 = {...obj1,...obj2,...obj3}
 // console.log(obj4)
 // console.log(obj1)
 
-console.log(Object.keys(appUser))
-console.log(Object.values(appUser));
-console.log(Object.entries(appUser))
+// console.log(Object.keys(appUser))
+// console.log(Object.values(appUser));
+// console.log(Object.entries(appUser))
 
-console.log(appUser.hasOwnProperty("isLoggedIn"))
+// console.log(appUser.hasOwnProperty("isLoggedIn"))
+
+const subscription = {
+    name: "Praful",
+    subDuration: 30,
+    method: "card"
+}
+
+// console.log(subscription.subDuration)
+
+//Object Destructure
+const {subDuration: duration} = subscription
+console.log(duration)
 
 
 
