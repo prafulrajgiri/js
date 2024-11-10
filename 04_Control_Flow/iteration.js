@@ -24,3 +24,16 @@
 //     console.log(i);
     
 // }
+
+// index = 0
+// while (index<=10) {
+//     console.log(index);
+//     index = index + 2
+    
+// }
+
+i = 0
+do {
+    console.log(i+1)
+    i++
+} while (i<10);
